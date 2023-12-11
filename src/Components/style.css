@@ -1,0 +1,56 @@
+.taskStyle {
+    padding: 60px 0px;
+}
+.taskStyle thead{
+background-color: #3e2626;
+}
+.taskStyle h4 {
+    padding: 10px 0px;
+}
+
+.heroSectionStyle {
+    padding: 40px 0px;
+}
+
+.startBtn:enabled {
+    background-color: #009578;
+    margin: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.pouseBtn:enabled {
+    background-color: #0b82fa;
+    margin: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.savebtn:enabled {
+    background-color: #49a74d;
+    margin: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.startBtn:disabled {
+    background-color: #1dcca9;
+    margin: 20px;
+    color: black;
+    border: none;
+}
+
+.pouseBtn:disabled {
+    background-color: #4aa0f6;
+    margin: 20px;
+    color: black;
+    border: none;
+}
+.savebtn:disabled {
+    background-color: #8ce290;
+    margin: 20px;
+    color: black;
+    border: none;
+}
