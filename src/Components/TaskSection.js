@@ -50,7 +50,7 @@ function TaskSection(props) {
                 </thead>
                 <tbody>
                     {
-                        getTaskData.map((list, index) => {
+                        getTaskData && getTaskData.map((list, index) => {
                             return (
                                 <tr>
                                     <td>{index + 1}</td>
